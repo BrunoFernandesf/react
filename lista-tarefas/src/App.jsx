@@ -7,14 +7,13 @@ import ClassComponent from './components/ClassComponent'
 import PropsExample from './components/PropsExample'
 import JsxExamples from './components/JsxExamples'
 import UseStateComponent from './components/UseStateComponent'
-
+import EventRendering from './components/EventRendering'
 
 function App() {
 
   return (
     <>
-      <h1>Hello World React!</h1>
-      <UseStateComponent></UseStateComponent>
+      <EventRendering></EventRendering>
     </>
   )
 }
