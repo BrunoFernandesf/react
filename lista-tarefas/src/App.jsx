@@ -8,12 +8,13 @@ import PropsExample from './components/PropsExample'
 import JsxExamples from './components/JsxExamples'
 import UseStateComponent from './components/UseStateComponent'
 import EventRendering from './components/EventRendering'
+import UseEffect from './components/UseEffect'
 
 function App() {
 
   return (
     <>
-      <EventRendering></EventRendering>
+      <UseEffect></UseEffect>
     </>
   )
 }
