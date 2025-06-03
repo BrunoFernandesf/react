@@ -9,12 +9,13 @@ import JsxExamples from './components/JsxExamples'
 import UseStateComponent from './components/UseStateComponent'
 import EventRendering from './components/EventRendering'
 import UseEffect from './components/UseEffect'
+import StyleExamples from './components/StyleExamples'
 
 function App() {
 
   return (
     <>
-      <UseEffect></UseEffect>
+      <StyleExamples></StyleExamples>
     </>
   )
 }
