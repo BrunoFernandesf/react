@@ -1,10 +1,11 @@
 import './App.css'
 import ContadorComponent from './components/contador/ContadorComponent'
+import ShowTextComponent from './components/show-text/ShowTextComponent'
 
 function App() {
   return (
     <>
-      <ContadorComponent></ContadorComponent>
+      <ShowTextComponent></ShowTextComponent>
     </>
   )
 }
